@@ -3,10 +3,10 @@
 ## What's in the folder
 * This folder contains all of the files necessary for your extension
 * `package.json` - this is the manifest file in which you declare your language support and define
-the location of the grammar file that has been copied into you extension.
+* the location of the grammar file that has been copied into you extension.
 * `syntaxes/liquid.tmLanguage` - this is the Text mate grammar file that is used for tokenization
 * `liquid.configuration.json` - this the language configuration, defining the tokens that are used for
-comments and brackets.
+* comments and brackets.
 
 ## Get up and running straight away
 * Make sure the language configuration settings in `liquid.configuration.json` are accurate
@@ -20,7 +20,7 @@ comments and brackets.
 
 ## Add more language features
 * To add features such as intellisense, hovers and validators check out the VS Code extenders documentation at
-https://code.visualstudio.com/docs
+* https://code.visualstudio.com/docs
 
 ## Install your extension
 * To start using your extension with Visual Studio Code copy it into the <user home>/.vscode/extensions folder and restart Code.

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Language="en-US" Id="language-liquid-jgodson" Version="0.0.3" Publisher="Jason Godson"/>
+    <DisplayName>JGODSON - Liquid Languages Support</DisplayName>
+    <Description xml:space="preserve">Liquid Languages Syntax Highlighter</Description>
+    <Tags>liquid</Tags>
+    <Categories>Languages</Categories>
+    <GalleryFlags>Public</GalleryFlags>
+    <Properties>
+    </Properties>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+  </Installation>
+  <Dependencies/>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+    <Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true" />
+  </Assets>
+</PackageManifest>

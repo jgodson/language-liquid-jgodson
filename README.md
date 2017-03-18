@@ -1,4 +1,9 @@
-This is a liquid language support extension for vscode. The .tmLanguage file is from https://github.com/siteleaf/liquid-syntax-mode.
+This is a reasonably functional extention to support liquid files in VSCode. I've added automatic file detection for file types other than `.liquid` (eg `.css.liquid`). It has a few issues with syntax highlighting at times, so you're welcome to submit an issue or fix it yourself and submit a PR!
 
-Github: https://github.com/GingerBear/vscode-liquid
-VS Marketplace: https://marketplace.visualstudio.com/items?itemName=neilding.language-liquid
+The `.tmLanguage` file is modified from https://github.com/siteleaf/liquid-syntax-mode.
+
+## GitHub
+
+This One: https://github.com/jgodson/vscode-liquid
+
+Forked From: https://github.com/GingerBear/vscode-liquid
